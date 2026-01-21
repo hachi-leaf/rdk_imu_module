@@ -101,8 +101,13 @@ linear_acceleration_covariance:
 默认参数文件位于`./config/rdk_imu_node_default_params.yaml`，`acc_bwp`、`acc_range`和`acc_odr`为加速度计参数，`gyro_bandwidth`和`gyro_range`为陀螺仪参数，改变`g_value`可改变加速度计三轴输出数据的缩放系数，改变`publish_rate`可以改变轮询频率(Hz)。<br>
 
 ## **五、版本信息**
+
 - 项目发布时间：2026-1-21
+
 - 项目版本：v1.0.0
+
 - 版本时间：2026-1-21
+
 - 项目最后更改时间：2026-1-21
+
 - README最后更改时间：2026-1-20
