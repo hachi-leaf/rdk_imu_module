@@ -1,0 +1,56 @@
+/rdk_imu_node:
+  ros__parameters:
+    acc_bwp: 2
+    # 0: OSR4
+    # 1: OSR2
+    # 2: NORMAL
+
+    acc_odr: 12
+    # 5: 12.5Hz
+    # 6: 25Hz
+    # 7: 50Hz
+    # 8: 100Hz
+    # 9: 200Hz
+    # 10: 400Hz
+    # 11: 800Hz
+    # 12: 1600Hz
+
+    acc_range: 3
+    # 0: 3g
+    # 1: 6g
+    # 2: 12g
+    # 3: 24g
+
+    g_value: 9.800000190734863
+
+    gyro_bandwidth: 0
+    # 0: ODR 2000Hz and bandwidth 532Hz 
+    # 1: ODR 2000Hz and bandwidth 230Hz 
+    # 2: ODR 1000Hz and bandwidth 116Hz 
+    # 3: ODR 400Hz and bandwidth 47Hz 
+    # 4: ODR 200Hz and bandwidth 23Hz 
+    # 5: ODR 100Hz and bandwidth 12Hz 
+    # 6: ODR 200Hz and bandwidth 64Hz 
+    # 7: ODR 100Hz and bandwidth 32Hz 
+
+    gyro_range: 0
+    # 0: 2000dps
+    # 1: 1000dps
+    # 2: 500dps
+    # 3: 250dps
+    # 4: 125dps
+
+    publish_rate: 200.0
+
+    qos_overrides:
+      /parameter_events:
+        publisher:
+          depth: 1000
+          durability: volatile
+          history: keep_last
+          reliability: reliable
+
+    topic_name: imu_data_topic
+
+    use_sim_time: false
+
