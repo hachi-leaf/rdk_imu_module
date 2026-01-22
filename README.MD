@@ -3,7 +3,7 @@ English | [简体中文](./README_cn.md) <br>
 
 # **RDK IMU Module Package**
 
-## ———— *RDK IMU Module Driver Package for RDK X5* ————
+## ———— *RDK IMU Module Driver Package for RDK X3/X5* ————
 
 ## **1. Features**
 
@@ -17,7 +17,7 @@ The ROS2 package name is `rdk_imu_module`, containing a node named `rdk_imu_node
 
 1. Hardware preparation: RDK X5 development board, RDK IMU Module, correctly installed and powered on.<br>
 
-2. RDK X5 should have a functional RDK OS system with TROS properly installed. Set up the TROS environment correctly: `source /opt/tros/humble/setup.bash`. Ensure the ROS2 build tool `colcon` is installed.<br>
+2. RDK X3/X5 should have a functional RDK OS system with TROS properly installed. Set up the TROS environment correctly: `source /opt/tros/humble/setup.bash`. Ensure the ROS2 build tool `colcon` is installed.<br>
 
 3. Download the `rdk_imu_module` directory into the `src` folder of your workspace. Navigate to the workspace directory and run `colcon build --packages-select rdk_imu_module`. The terminal output `Finished <<< rdk_imu_module [x.xs]` indicates successful compilation.<br>
 
@@ -110,4 +110,4 @@ The default parameter file is located at`./config/rdk_imu_node_default_params.ya
 
 - Last Modified: January 21, 2026
 
-- README Last Modified: January 20, 2026
+- README Last Modified: January 22, 2026

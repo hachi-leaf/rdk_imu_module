@@ -3,7 +3,7 @@
 
 # **RDK IMU Module Package**
 
-## ———— *RDK IMU Module驱动包 for RDK X5* ————
+## ———— *RDK IMU Module驱动包 for RDK X3/X5* ————
 
 ## **一、功能介绍**
 
@@ -15,9 +15,9 @@
 
 ## **二、环境准备与编译**
 
-1. 硬件准备RDK X5开发板，RDK IMU Module，并正确安装、上电；<br>
+1. 硬件准备RDK X3/X5开发板，RDK IMU Module，并正确安装、上电；<br>
 
-2. RDK X5具备正常RDK OS系统，正确安装TROS，并正确设置TROS环境变量：`source /opt/tros/humble/setup.bash`，正确安装ROS2编译工具`colcon`。<br>
+2. RDK X3/X5具备正常RDK OS系统，正确安装TROS，并正确设置TROS环境变量：`source /opt/tros/humble/setup.bash`，正确安装ROS2编译工具`colcon`。<br>
 
 3. 将`rdk_imu_module`目录下载到工作空间目录下的src目录下，在工作空间下键入`colcon build --packages-select rdk_imu_module`，终端输出`Finished <<< rdk_imu_module [x.xs]`信息代表编译完成。<br>
 
@@ -110,4 +110,4 @@ linear_acceleration_covariance:
 
 - 项目最后更改时间：2026-1-21
 
-- README最后更改时间：2026-1-20
+- README最后更改时间：2026-1-22
